@@ -115,7 +115,7 @@ class FixCSVTests(unittest.TestCase):
                 )
 
     # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
+    # @unittest.expectedFailure
     def test_autodetect_input_format(self):
         contents1 = dedent("""
             '2012' 'Lexus' 'LFA'
